@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "菜鸟教研室",
+  title: "叶绿体",
   description: "Let’s build from here",
   themeConfig: {
     search:{
@@ -19,7 +19,8 @@ export default defineConfig({
         text: 'Examples',
         items: [
           { text: 'git命令', link: '/markdown-examples' },
-          { text: 'mysql', link: '/api-examples' }
+          { text: 'mysql', link: '/api-examples' },
+          { text: '生物信息', link: '/biologicalinformation' }
         ]
       }
     ],
