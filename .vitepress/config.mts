@@ -20,7 +20,8 @@ export default defineConfig({
         items: [
           { text: 'git命令', link: '/markdown-examples' },
           { text: 'mysql', link: '/api-examples' },
-          { text: '生物信息', link: '/biologicalinformation' }
+          { text: '生物信息', link: '/biologicalinformation' },
+          { text: '前端面试', link: '/font-end-interview' }
         ]
       }
     ],
