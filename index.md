@@ -12,22 +12,76 @@ hero:
   actions:
     - theme: brand
       text: 进入博客
-      link: /markdown-examples
+      link: /myfeeling
     - theme: alt
       text: 开始学习
-      link: /api-examples
-features:
-  - icon: 🐧
-    title: Feature A 
-    details: 📊hello world,I an daisenqiu!<br>🎓我来自贵州医科大学<br>📋我正在学习前端TypeScript,nodejs<br>👀我喜欢骑行🚴打篮球🏀
-  - icon: 🐁
-    title: Feature B
-    details: 📙分享学习笔记，前端，后端，数据库<br>👾记录面试<br>✅写一些我的碎碎念
-  - icon: 🚦
-    title: Feature C
-    details: ⚠️我将持续施工...<br>🎠26届的牛马<br>😭在象牙塔中也要与时代共同进步
+      link: /markdown-examples
+
+
 ---
 
+
+<div class="marquee-container">
+  <div class="marquee">
+    <img src="./public/indexphoto/3a02ace349b4418980c3047cebe0fb80.png" class="marquee-image" />
+    <img src="./public/indexphoto/OIP (1).jpg" class="marquee-image" />
+    <img src="./public/indexphoto/OIP (6).jpg" class="marquee-image" />
+    <img src="./public/indexphoto/cover-4.png" class="marquee-image" />
+    <img src="./public/indexphoto/OIP (10).jpg" class="marquee-image" />
+    <img src="./public/indexphoto/OIP (11).jpg" class="marquee-image" />
+    <img src="./public/indexphoto/OIP (12).jpg" class="marquee-image" />
+    <img src="./public/indexphoto/OIP (13).jpg" class="marquee-image" />
+    <img src="./public/indexphoto/OIP (14).jpg" class="marquee-image" />
+    <img src="./public/indexphoto/OIP (5).jpg" class="marquee-image" />
+    <img src="./public/indexphoto/v2-1ba5d69375e7fa3fb5cf98decb6721d0_720w.jpg" class="marquee-image" />
+    <img src="./public/indexphoto/20210515224528502.jpg" class="marquee-image" />
+    <img src="./public/indexphoto/OIP (15).jpg" class="marquee-image" />
+    <img src="./public/indexphoto/C_Logo.png" class="marquee-image" />
+   
+    
+  </div>
+ 
+</div>
+
+<style>
+.marquee-container {
+  position: relative;
+  overflow: hidden;
+  background: #f0f0f0;
+  height: 150px; /* 图片高度 */
+  width: 100%; /* 宽度设为 100% 占据父元素 */
+}
+
+.marquee {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  top: 0;
+  animation: marquee 12s linear infinite;
+}
+
+.marquee-image {
+  margin-right: 10px; /* 图片间隔 */
+  width:150px;
+  height: 100%; /* 使图片高度与容器相同 */
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(100%); /* 从右边开始 */
+  }
+  to {
+    transform: translateX(-100%); /* 向左边滚动 */
+  }
+}
+</style>
+
+:::danger
+ 📊hello world,I an daisenqiu!,🎓我来自贵州医科大学,📋我在海康威视做前端实习生,👀我喜欢骑行🚴打篮球🏀<br>
+ 📙分享学习笔记，前端，后端，数据库,👾记录面试,✅写一些我的碎碎念<br>
+ ⚠️我将持续施工...,🎠26届的牛马,😭在象牙塔中也要与时代共同进步<br>
+:::
 :::tip
 怎么联系我?
 ⛄[gitee](https://i.csdn.net/#/user-center/profile?spm=1001.2101.3001.5111)
@@ -36,10 +90,11 @@ features:
 🐭 [稀土掘金](https://juejin.cn/user/3661827143369704)
 :::
 
-<video width="100%" height="auto"  autoplay muted controls>
+ 
+<!-- <video width="100%" height="auto"  autoplay muted controls>
   <source src="./public/lv_0_20240910214339_compressed.mp4" type="video/mp4">
   Your browser does not support the video tag.
-</video>
+</video> -->
 
 ```md
 <!DOCTYPE html>
@@ -54,65 +109,16 @@ features:
 </body>
 </html>
 ```
-:tada: :100:
-:sloth:
-| Tables        |      Are      |  Cool |
-| ------------- | :-----------: | ----: |
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      |   centered    |   $12 |
-| zebra stripes |   are neat    |    $1 |
 
 
-代码聚焦
-```js
-export default {
-  data () {
-    return {
-      msg: 'Focused!' // [!code focus]
-    }
-  }
-}
-```
+<div style="display: flex; align-items: center; justify-content: center; margin-top: 10px;">
+  <img src="/备案图标.png" alt="" style="width: 15px; margin-right: 5px;">
+  <a href="https://beian.mps.gov.cn/#/query/webSearch?code=52050202001586" rel="noreferrer" target="_blank" style="color: inherit; text-decoration: none; margin-right: 20px;">贵公网安备52050202001586</a>
+  <a href="https://beian.miit.gov.cn/#/Integrated/recordQuery" rel="noreferrer" target="_blank" style="color: inherit; text-decoration: none;">黔ICP备2024036495号</a>
+</div>
 
-代码颜色
-```js
-export default {
-  data () {
-    return {
-      msg: 'Removed' // [!code --]
-      msg: 'Added' // [!code ++]
-    }
-  }
-}
-```
 
-{{ 1 + 1 }}
 
-<span v-for="i in 3">{{ i }}</span>
 
----
-hello: world
----
 
-<script setup>
-import { ref } from 'vue'
-
-const count = ref(0)
-</script>
-
-## Markdown Content
-
-The count is: {{ count }}
-
-<button :class="$style.button" @click="count++">Increment</button>
-
-<style module>
-.button {
-  color: red;
-  font-weight: bold;
-  weight:50px;
-  height:50px;
-  background-color:green;
-}
-</style>
-
+<code-rain />
