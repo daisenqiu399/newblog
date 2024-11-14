@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "叶绿体",
+  title: "戴森球",
   description: "Let’s build from here",
   themeConfig: {
     search:{
@@ -10,24 +10,23 @@ export default defineConfig({
     },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '首页', link: '/' },
-      { text: '目录', link: '/markdown-examples' }
+      { text: '🗽首页', link: '/' },
+      { text: '📚Article',link:'/article' },
+      { text: '👬Friends',link:'/friends'},
     ],
 
     sidebar: [
       {
         text: 'Examples',
         items: [
-          { text: 'git命令', link: '/markdown-examples' },
-          { text: 'mysql', link: '/api-examples' },
-          { text: '生物信息', link: '/biologicalinformation' },
-          { text: '前端面试', link: '/font-end-interview' }
+          { text: '前端', link: '/markdown-examples' },
+         
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://gitee.com/dyson-ball' }
+      { icon: 'github', link: 'https://github.com/daisenqiu399' }
     ]
   }
 })

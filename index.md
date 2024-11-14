@@ -11,13 +11,8 @@ hero:
    alt: 头像
   actions:
     - theme: brand
-      text: 进入博客
-      link: /myfeeling
-    - theme: alt
-      text: 开始学习
-      link: /markdown-examples
-
-
+      text: 文档
+      link: /article
 ---
 
 
@@ -95,21 +90,6 @@ hero:
   <source src="./public/lv_0_20240910214339_compressed.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video> -->
-
-```md
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello, World!</title>
-</head>
-<body>
-    <h1>Hello, World!</h1>
-</body>
-</html>
-```
-
 
 <div style="display: flex; align-items: center; justify-content: center; margin-top: 10px;">
   <img src="/备案图标.png" alt="" style="width: 15px; margin-right: 5px;">
